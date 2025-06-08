@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, navigationMenuTriggerStyle } from "../ui/navigation-menu";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "../ui/hover-card";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { ChevronDown, Droplets, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function Navbar() {
@@ -46,7 +46,8 @@ export function Navbar() {
       <div className="container mx-auto flex h-20 items-center justify-between">
         {/* Лого с анимацией при наведении */}
         <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-          <Link href="/" className="flex items-center space-x-2 cursor-pointer hover:bg-accent rounded-md p-2 transition-colors">
+          <Link href="/" className="flex items-center space-x-2 cursor-pointer rounded-md p-2 transition-colors">
+            <Droplets className="w-8 h-8 text-primary" />
             <h2 className="inline-block font-bold text-xl">ПавлодарГидроГеология</h2>
           </Link>
         </motion.div>

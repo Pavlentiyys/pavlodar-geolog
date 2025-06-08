@@ -1,9 +1,10 @@
+import NotCreated from '@/components/features/notcreated'
 import React from 'react'
 
 const Drills = () => {
   return (
     <div>
-      Drills
+      <NotCreated/>
     </div>
   )
 }

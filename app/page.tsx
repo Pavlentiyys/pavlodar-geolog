@@ -21,7 +21,7 @@ const heroSlides = [
     title: "68 лет надежного партнерства",
     subtitle: "С 1955 года обеспечиваем Казахстан чистой водой",
     description: "Ведущий специалист по гидрогеологии и бурению скважин",
-    image: "/image1.jpg"
+    image: "/image1.jpeg"
   },
   {
     title: "Государственные программы",
@@ -33,7 +33,7 @@ const heroSlides = [
     title: "Прорывные проекты",
     subtitle: "Участие в 30 ключевых проектах РК",
     description: "От Астаны до Мангистауской области",
-    image: "/image3.png"
+    image: "/image3.jpeg"
   }
 ];
 
