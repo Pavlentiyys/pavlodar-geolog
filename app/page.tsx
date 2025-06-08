@@ -21,19 +21,19 @@ const heroSlides = [
     title: "68 лет надежного партнерства",
     subtitle: "С 1955 года обеспечиваем Казахстан чистой водой",
     description: "Ведущий специалист по гидрогеологии и бурению скважин",
-    image: "/placeholder.svg?height=600&width=1200&text=Гидрогеология"
+    image: "/image1.jpg"
   },
   {
     title: "Государственные программы",
     subtitle: "68 населенных пунктов обеспечены водой",
     description: "Программа 'Питьевая вода' и 'Ак булак'",
-    image: "/placeholder.svg?height=600&width=1200&text=Водоснабжение"
+    image: "/image2.jpg"
   },
   {
     title: "Прорывные проекты",
     subtitle: "Участие в 30 ключевых проектах РК",
     description: "От Астаны до Мангистауской области",
-    image: "/placeholder.svg?height=600&width=1200&text=Проекты"
+    image: "/image3.png"
   }
 ];
 
@@ -101,7 +101,7 @@ export default function Home() {
                 <img 
                   src={slide.image} 
                   alt={slide.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-bottom"
                 />
                 <div className="absolute inset-0 bg-blue-900/70 flex items-center">
                   <div className="container mx-auto px-4">

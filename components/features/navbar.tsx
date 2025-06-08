@@ -56,11 +56,11 @@ export function Navbar() {
           <NavigationMenuList>
             <NavigationMenuItem>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Link href="/" passHref>
-                  <NavigationMenuLink className={`${navigationMenuTriggerStyle()} h-20 rounded-none cursor-pointer hover:bg-accent`}>
+                  <NavigationMenuLink asChild className={`${navigationMenuTriggerStyle()} h-20 rounded-none cursor-pointer hover:bg-accent`}>
+                <Link href="/">
                     Главная
-                  </NavigationMenuLink>
                 </Link>
+                  </NavigationMenuLink>
               </motion.div>
             </NavigationMenuItem>
 
