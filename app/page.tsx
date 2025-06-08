@@ -13,7 +13,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
-import { Separator } from '@/components/ui/separator';
+import Image from 'next/image';
 
 
 const heroSlides = [
@@ -98,9 +98,10 @@ export default function Home() {
           {heroSlides.map((slide, index) => (
             <SwiperSlide key={index}>
               <div className="relative h-full">
-                <img 
+                <Image 
                   src={slide.image} 
                   alt={slide.title}
+                  fill
                   className="w-full h-full object-cover object-bottom"
                 />
                 <div className="absolute inset-0 bg-blue-900/70 flex items-center">
@@ -127,7 +128,7 @@ export default function Home() {
             <h2 className="text-4xl font-bold text-gray-900 mb-6">68 лет опыта и надежности</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               С 1955 года, в разгар освоения целины, мы обеспечиваем Казахстан надежными источниками воды. 
-              Эволюционировав от Павлодарской гидрогеологической экспедиции до современного ТОО "Павлодаргидрогеология".
+              Эволюционировав от Павлодарской гидрогеологической экспедиции до современного ТОО 'Павлодаргидрогеология'.
             </p>
           </div>
           
