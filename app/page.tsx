@@ -296,7 +296,10 @@ export default function Home() {
                       <Clock className="w-5 h-5 text-blue-600" />
                       <span>Режим работы</span>
                     </CardTitle>
-                    <CardDescription>Пн-Пт: 9:00-18:00</CardDescription>
+                    <CardDescription>
+                      Пн-Пт: 8:00-17:00;<br/>
+                      Обед: 12:00-13:00;
+                    </CardDescription>
                   </CardHeader>
                 </Card>
               </div>
